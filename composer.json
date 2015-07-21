@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "flaveris/php-ffmpeg": "0.5.*@dev"
+        "php-ffmpeg/php-ffmpeg": "0.5.*@dev"
     },
     "minimum-stability": "dev",
     "authors": [
