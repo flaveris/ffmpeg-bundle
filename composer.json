@@ -4,8 +4,14 @@
     "keywords": ["ffmpeg", "multimedia"],
     "license": "MIT",
     "type": "symfony-bundle",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/flaveris/PHP-FFMpeg"
+        }
+    ],
     "require": {
-        "php-ffmpeg/php-ffmpeg": "0.5.*@dev"
+        "flaveris/php-ffmpeg": "0.5.*@dev"
     },
     "minimum-stability": "dev",
     "authors": [
